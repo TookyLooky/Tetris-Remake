@@ -12,7 +12,7 @@ Game::Game()
     gameOver = false;
     score = 0;
     InitAudioDevice();
-    music = LoadMusicStream("D:/Timofei/Projects/Tetris/sounds/clear.mp3");
+    music = LoadMusicStream("sounds/clear.mp3");
     PlayMusicStream(music);
     rotateSound = LoadSound("/sounds/rotate.mp3");
     clearSound = LoadSound("/sounds/clear.mp3");
@@ -211,3 +211,4 @@ void Game::UpdateScore(int linesCleared, int moveDownPoints)
 
     score += moveDownPoints;
 }
+
