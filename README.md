@@ -10,7 +10,7 @@ I did not add "make file" and json files, because it would take me a long time t
 
 You can play this game on itch.io or download the executable file there
 
-##Link for the game
+## Link for the game
 
 https://tookylooky.itch.io/tetris-old
 
